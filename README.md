@@ -1,5 +1,3 @@
-# Store Block Course
+# Store Block course template
 
-Work in progress
-
-
+Here you'll learn how to create awesome Store Framework blocks!
