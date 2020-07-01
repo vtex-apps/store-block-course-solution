@@ -1,11 +1,5 @@
 {
   "countdown": {
     "component": "Countdown"
-  },
-  "countdown.title": {
-    "component": "Title"
-  },
-  "gif": {
-    "component": "Gif"
   }
 }

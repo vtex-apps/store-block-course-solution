@@ -1,3 +1,0 @@
-query getGif ($term: String) {
-    gif(term:$term)
-}

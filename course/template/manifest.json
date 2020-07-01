@@ -8,22 +8,11 @@
   "builders": {
     "messages": "1.x",
     "store": "0.x",
-    "react": "3.x",
-    "node": "4.x",
-    "graphql": "1.x"
+    "react": "3.x"
   },
   "dependencies": {
     "vtex.styleguide": "9.x",
     "vtex.css-handles": "0.x"
   },
-  "policies": [
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "api.giphy.com",
-        "path": "*"
-      }
-    }
-  ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
