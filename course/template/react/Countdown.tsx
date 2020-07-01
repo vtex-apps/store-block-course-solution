@@ -6,17 +6,13 @@ import { useQuery } from 'react-apollo'
 import useProduct from 'vtex.product-context/useProduct'
 import productReleaseDate from './queries/productReleaseDate.graphql'
 
-interface CountdownProps {
-
-}
+interface CountdownProps {}
 
 const DEFAULT_TARGET_DATE = new Date('2020-06-25').toISOString()
 
 const CSS_HANDLES = ['countdown']
 
-const Countdown: StorefrontFunctionComponent<CountdownProps> = ({
-
-}) => {
+const Countdown: StorefrontFunctionComponent<CountdownProps> = ({}) => {
   const [timeRemaining, setTime] = useState<TimeSplit>({
     hours: '00',
     minutes: '00',
@@ -51,8 +47,6 @@ const Countdown: StorefrontFunctionComponent<CountdownProps> = ({
   }
 
   tick(data?.product?.releaseDate || DEFAULT_TARGET_DATE, setTime)
-
-
 
   return (
     <div
