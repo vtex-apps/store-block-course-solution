@@ -1,17 +1,18 @@
 {
-  "name": "store-block",
   "vendor": "vtex",
+  "name": "countdown",
   "version": "0.0.1",
-  "title": "Course App for custom block development teaching",
-  "description": "VTEX Course App",
-  "dependencies": {},
+  "title": "Countdown",
+  "description": "Countdown component",
+  "defaultLocale": "pt-BR",
   "builders": {
-    "course": "0.x"
+    "messages": "1.x",
+    "store": "0.x",
+    "react": "3.x"
   },
-  "scripts": {
-    "prereleasy": "bash lint.sh"
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "0.x"
   },
-  "credentialType": "absolute",
-  "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
